@@ -5,15 +5,15 @@ import PropTypes from "proptypes";
 function LocationDetails(props) {
   const { city, country } = props;
   return (
-    <div className="LocationDetails">
-      <h1>{`${city}, ${country}`}</h1>
+    <div>
+      <h1 className="location-details">{`${city}, ${country}`}</h1>
     </div>
   );
 }
 
 LocationDetails.propTypes = {
-  city: PropTypes.string,
-  country: PropTypes.string,
+  city: PropTypes.string.isRequired,
+  country: PropTypes.string.isRequired,
 };
 
 export default LocationDetails;
