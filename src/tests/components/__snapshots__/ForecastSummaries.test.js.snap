@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForecastSummaries renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="forecast-summaries"
+  >
+    <div
+      class="forecast-summary"
+      data-testid="forecast-summary"
+    >
+      <div
+        class="forecast-summary__date"
+        data-testid="date-id"
+      >
+        4 May 2018
+      </div>
+      <div
+        class="forecast-summary__temperature"
+        data-testid="temperature-id"
+      >
+        22°C
+      </div>
+      <div
+        class="forecast-summary__icon"
+        data-testid="icon-image-id"
+      >
+        <i
+          class="wi wi-day-sunny wi-flip-horizontal wi-rotate-90"
+          name="owm"
+        />
+      </div>
+      <div
+        class="forecast-summary__description"
+        data-testid="description-id"
+      >
+        Stub description 1
+      </div>
+    </div>
+    <div
+      class="forecast-summary"
+      data-testid="forecast-summary"
+    >
+      <div
+        class="forecast-summary__date"
+        data-testid="date-id"
+      >
+        22 April 2018
+      </div>
+      <div
+        class="forecast-summary__temperature"
+        data-testid="temperature-id"
+      >
+        24°C
+      </div>
+      <div
+        class="forecast-summary__icon"
+        data-testid="icon-image-id"
+      >
+        <i
+          class="wi wi-day-storm-showers wi-flip-horizontal wi-rotate-90"
+          name="owm"
+        />
+      </div>
+      <div
+        class="forecast-summary__description"
+        data-testid="description-id"
+      >
+        Stub description2
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
