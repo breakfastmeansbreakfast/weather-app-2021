@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it rents ok renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="forecast-details"
+    data-testid="forecast-details"
+  >
+    <div
+      class="forecast-details__date"
+      data-testid="date-id"
+    >
+      4 May 2018
+    </div>
+    <div
+      class="forecast-details__temperature-max"
+      data-testid="temperature-max-id"
+    >
+      11°C
+    </div>
+    <div
+      class="forecast-details__temperature-min"
+      data-testid="temperature-min-id"
+    >
+      4°C
+    </div>
+    <div
+      class="forecast-details__wind-speed"
+      data-testid="wind-speed-id"
+    >
+      13 mph
+    </div>
+    <div
+      class="forecast-details__wind-direction"
+      data-testid="wind-direction-id"
+    >
+      Wind direction: S
+    </div>
+  </div>
+</DocumentFragment>
+`;
